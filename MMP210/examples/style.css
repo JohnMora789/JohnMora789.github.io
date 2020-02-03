@@ -1,0 +1,13 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #ab839f;
+}
+
+#cat{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
