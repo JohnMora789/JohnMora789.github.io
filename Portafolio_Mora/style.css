@@ -1,0 +1,136 @@
+body{
+background-color: #8F3134 ;    
+}
+/*
+#5C4037 color dark brown
+*/
+
+/*
+#5C1918 Dark red
+*/
+
+
+
+header{
+    /*
+    background: #00ff00;
+    */
+    clear: both;
+    float: right;
+    height: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+
+a{
+    padding: 45px;
+    font-family: 'Mongolian Baiti', 'Cambria' serif;
+    font-size: 17px;
+    text-decoration: none;
+    
+    
+}
+
+
+a:visited {
+    color: rgba(255, 255, 255, 0.99);
+    
+}
+
+a:hover {
+    color: bisque;
+    
+}
+
+
+
+div{
+    width: 25%;
+    height: 168px;
+    clear: both;
+    margin-left: 150px;
+   padding-left: 40px;
+    color: beige;
+}
+
+.splash{
+    clear: both;
+    float: left;
+    margin-left: 18px;
+    
+    
+}
+
+img{
+    float: right;
+    clear: right;
+    
+
+    
+}
+
+.poster{
+    font-family: 'Mongolian Baiti', serif;
+    clear: right;
+    margin-left: 17px;
+    width: 100px;
+    color: #fff;
+    margin: inherit;
+    }
+
+.cover{
+    float: right;
+    clear: right;
+    width: inherit;
+    margin: inherit;
+    color: #fff;
+    
+}
+
+.world{
+    font-family: 'Mongolian Baiti', serif;
+    clear: right;
+    width: 40px;
+     color: #fff;
+    margin: 50px;
+    
+    
+    
+}
+
+#gif{
+    width: 500px;
+    height: 400px;
+    float: left;
+    
+}
+
+.anime{
+    float: right;
+    width: inherit;
+    color: #fff;
+    
+   
+    
+
+}
+
+video{
+    width: 500px;
+    height: 400px;
+    float: right;
+   clear: right;
+    
+}
+
+
+
+
+
+
+    
+    
+
