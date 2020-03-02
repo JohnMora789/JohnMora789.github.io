@@ -10,6 +10,7 @@ function setup() {
   createCanvas(400, 400);
   background(20, 120, 140);
   textSize(35);
+  rectMode(LEFT);
   
    x = width / 2;
    y = height;
@@ -58,12 +59,25 @@ function draw() {
   fill(240, 182, 137, 94);
     arc(260, 215, 110, 40, 0, HALF_PI);
   
- fill(235, 58, 52);
+
+  
+  push();
+    fill(244, 122, 158);
+    rect(mouseX, height / 5, mouseY / 5 + 10, mouseY / 5 + 10);
+    fill(237, 34, 93);
+    let inverseX = width - mouseX;
+    let inverseY = height - mouseY;
+    rect(inverseX, height / 5, inverseY / 5 + 10, inverseY / 5 + 10);
+  pop();
+      
+
+     fill(150);
   stroke(0);
   text(t, 60, 130, 70, 80);
+ 
   
   
-  /* Animation */
+  /* Animation 
    stroke(50);
   fill(200);
   ellipse(x, y, 20, 20);
@@ -72,7 +86,7 @@ function draw() {
     y = y - 2;
   if (y < 0) {
     y = height;
-  }
+  }*/
   
   push();
   stroke(0);
@@ -125,11 +139,7 @@ pop();
   
   
   
-  /*beginShape();
-  vertex(120,177);
-  vertex(270,177);
-  vertex(width/2, 99);
-  endShape(CLOSE);*/
+ 
   
   
   
